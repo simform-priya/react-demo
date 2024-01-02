@@ -1,5 +1,4 @@
 import React from 'react'
-import { Lock, Trash2 } from "react-feather";
 import DropDownStyle from '../../styles/DropDown.Style';
 import UserDataStyle from '../../styles/UserData/UserDataStyle';
 import UserNameStyle from '../../styles/UserData/UserNameStyle'
@@ -33,7 +32,7 @@ const UserItem = (props) => {
       </Status>
       <div className="owner">Owner</div>
       <div style={{ color: 'gray' }}>
-        <Lock />
+        {/* <Lock /> */}
       </div>
     </StatusStyle>
   );
@@ -48,7 +47,7 @@ const UserItem = (props) => {
         <option>Owner</option>
       </DropDownStyle>
       <div style={{ color: 'gray' }}>
-        <Trash2 />
+        {/* <Trash2 /> */}
       </div>
     </>
   );
