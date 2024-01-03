@@ -32,7 +32,7 @@ const UserItem = (props) => {
       </Status>
       <div className="owner">Owner</div>
       <div style={{ color: 'gray' }}>
-        {/* <Lock /> */}
+        <Lock />
       </div>
     </StatusStyle>
   );
@@ -47,7 +47,7 @@ const UserItem = (props) => {
         <option>Owner</option>
       </DropDownStyle>
       <div style={{ color: 'gray' }}>
-        {/* <Trash2 /> */}
+        <Trash2 />
       </div>
     </>
   );
